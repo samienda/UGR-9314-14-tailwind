@@ -4,21 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hobbies</title>
+        <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   </head>
-  <body>
+  <body>    
     <header>
-      <nav>
-        <div>
-          <div><img src="./logo/samilogo.png" alt="samuel's logo" /></div>
-          <div><a href="./home.html">Home</a></div>
-          <div><a href="./about.html">About</a></div>
-          <div><a href="./projects.html">Projects</a></div>
-          <div><a href="./travel.html">Travel</a></div>
-          <div><a href="./hobbies.html">Hobbies</a></div>
-          <div><a href="./resume.html">resume</a></div>
+      <nav class="flex justify-between items-center mx-auto">
+      <div>
+          <img class="w-20 h-20" src="./logo/samilogo.png" alt="samuel's logo" />
         </div>
+      <div class="nav-content flex flex-col  sm:flex items-end sm:w-auto w-full px-5 hidden">    
+        <div class="flex sm:flex-row flex-col sm:items-center  sm:gap-[4vw] gap-8">    
+          <a href="./home.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./travel.html">Travel</a>
+          <a href="./hobbies.html">Hobbies</a>
+          <a href="./resume.html">resume</a>
+          </div>
+        </div>
+      <div class="flex items-center  sm:hidden gap-6 px-5">
+        <i class="fa-solid fa-bars" onclick="onTouchMenu()"></i>    
+      </div>
       </nav>
-    </header>
+  </header>
     <main>
       <div>
         <h3>football</h3>
@@ -106,5 +118,6 @@
       <!--copy rights and credit of designer-->
       <div><p>designed by samuelendale</p></div>
     </footer>
+    <script src="./js/custom.js"></script>
   </body>
 </html>
