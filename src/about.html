@@ -14,7 +14,7 @@
     <header>
       <nav class="flex justify-between items-center mx-auto">
         <div>
-          <img class="w-20 h-20" src="./logo/samilogo.png" alt="samuel's logo" />
+          <img class="w-20 h-20 rounded-full mb-2" src="./logo/samilogo.png" alt="samuel's logo" />
         </div>
         <div class="nav-content flex flex-col  sm:flex items-end sm:w-auto w-full px-5 hidden">
           <div class="flex sm:flex-row flex-col sm:items-center  sm:gap-[4vw] gap-8">
@@ -33,9 +33,9 @@
     </header>
     <main>
       <!--little about me introduction-->
-      <div>
-        <img src="./photo/imageinabout.jpg" alt="" />
-        <p>
+      <div class="sm:grid grid-cols-2 m-2 border-r-4 rounded-3xl">
+        <img class="rounded-3xl" src="./photo/imageinabout.jpg" alt=""/>
+        <p >
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
           architecto laborum aliquid fuga minus! Quia sed placeat eligendi
           aspernatur natus pariatur necessitatibus explicabo laborum qui ex, cum
@@ -47,117 +47,127 @@
           officiis id veniam quasi.
         </p>
       </div>
-      <div>
-        <div>
-          <h2>Educations</h2>
-          <ul>
-            <li>
-              BA in software engineering
-              <ul>
-                <li>addis ababa university</li>
-              </ul>
-            </li>
-            <li>
-              secondary school
-              <ul>
-                <li>beteseb acadamey</li>
-              </ul>
-            </li>
-            <li>
-              python
-              <ul>
-                <li>udamey</li>
-              </ul>
-            </li>
-            <li>
-              networking essentials
-              <ul>
-                <li>cisco</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h2>Skils</h2>
+      <div class="m-5">
+        <div class="flex-row sm:flex mb-5 sm:justify-around">
           <div>
+            <h2 class="text-4xl mb-5">Educations</h2>
+          </div>
+          <div class="ml-5">
             <ul>
-              <li>
+              <li class="text-xl">
+                BA in software engineering
+                <ul class="ml-3 text-xs">
+                  <li>addis ababa university</li>
+                </ul>
+              </li>
+              <li class="text-xl">
+                secondary school
+                <ul class="ml-3 text-xs">
+                  <li>beteseb acadamey</li>
+                </ul>
+              </li>
+              <li class="text-xl">
                 python
-                <ul>
-                  <li>advanced</li>
+                <ul class="ml-3 text-xs">
+                  <li>udamey</li>
+                </ul>
+              </li>
+              <li class="text-xl">
+                networking essentials
+                <ul class="ml-3 text-xs">
+                  <li>cisco</li>
                 </ul>
               </li>
             </ul>
           </div>
+        </div>
+        <div class="flex-row sm:flex m-5 sm:justify-around">
           <div>
-            <ul>
-              <li>
-                java
-                <ul>
-                  <li>intermediate</li>
-                </ul>
-              </li>
-            </ul>
+            <h2 class="text-4xl mb-5">Skills</h2>
           </div>
-          <div>
-            <ul>
-              <li>
-                javascript
-                <ul>
-                  <li>intermediate</li>
-                </ul>
-              </li>
-            </ul>
+          <div class="ml-5">
+            <div>
+              <ul class="text-xl">
+                <li>
+                  python
+                  <ul class="ml-3 text-xs">
+                    <li>advanced</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="text-xl">
+                <li>
+                  java
+                  <ul class="ml-3 text-xs">
+                    <li>intermediate</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="text-xl">
+                <li>
+                  javascript
+                  <ul class="ml-3 text-xs">
+                    <li>intermediate</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="text-xl">
+                <li>
+                  bootstrap
+                  <ul class="ml-3 text-xs">
+                    <li>intermediate</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <ul>
-              <li>
-                bootstrap
-                <ul>
-                  <li>intermediate</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>
-                react
-                <ul>
-                  <li>beginner</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>
-                django
-                <ul>
-                  <li>intermediate</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>
-                flask
-                <ul>
-                  <li>beginner</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>
-                C#
-                <ul>
-                  <li>beginner</li>
-                </ul>
-              </li>
-            </ul>
+          <div class="ml-5">
+            <div>
+              <ul class="text-xl">
+                <li>
+                  react
+                  <ul class="ml-3 text-xs">
+                    <li>beginner</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="text-xl">
+                <li>
+                  django
+                  <ul class="ml-3 text-xs">
+                    <li>intermediate</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="text-xl">
+                <li>
+                  flask
+                  <ul class="ml-3 text-xs">
+                    <li>beginner</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="text-xl">
+                <li>
+                  C#
+                  <ul class="ml-3 text-xs">
+                    <li>beginner</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
