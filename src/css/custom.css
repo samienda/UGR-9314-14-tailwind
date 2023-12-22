@@ -1,4 +1,4 @@
 .greeting_with_message {
-    background-image: url(/photo/mypicture.webp);
+    background-image: url(/src/photo/mypicture.webp);
     height: 500px;
 }
