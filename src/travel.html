@@ -14,7 +14,7 @@
     <header>
       <nav class="flex justify-between items-center mx-auto">
         <div>
-          <img class="w-20 h-20" src="./logo/samilogo.png" alt="samuel's logo" />
+          <img class="w-20 h-20 rounded-full m-2" src="./logo/samilogo.png" alt="samuel's logo" />
         </div>
         <div class="nav-content flex flex-col  sm:flex items-end sm:w-auto w-full px-5 hidden">
           <div class="flex sm:flex-row flex-col sm:items-center  sm:gap-[4vw] gap-8">
@@ -33,14 +33,14 @@
     </header>
     <main>
       <section>
-        <h2>Visted places</h2>
+        <h2 class="text-5xl m-3 ml-5">Visted places</h2>
 
-        <div>
-          <figure>
-            <img src="./photo/ocean.jpg" alt="image of langano" />
+        <div class="sm:flex m-4 border-2 rounded-2xl">
+          <figure class="sm:w-1/2">
+            <img class="rounded-2xl sm:rounded-r-none" src="./photo/ocean.jpg" alt="image of langano" />
           </figure>
-          <aside>
-            <h3>langano</h3>
+          <aside class="w-1/2 m-5">
+            <h3 class="text-2xl pl-5">langano</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
               non. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -49,10 +49,12 @@
           </aside>
         </div>
 
-        <div>
-          <figure><img src="./photo/ocean.jpg" alt="image of wenchi" /></figure>
-          <aside>
-            <h3>wenchi</h3>
+        <div class="sm:flex m-4 border-2 rounded-2xl">
+          <figure class="sm:w-1/2">
+            <img class="rounded-2xl sm:rounded-r-none" src="./photo/ocean.jpg" alt="image of wenchi" />
+          </figure>
+          <aside class="w-1/2 m-5">
+            <h3 class="text-2xl pl-5">wenchi</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
               non. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -63,31 +65,37 @@
       </section>
 
       <section>
-        <h2>Places planned to visit</h2>
+        <h2 class="text-5xl m-3 ml-5">Places planned to visit</h2>
 
-        <div>
-          <h3>harari</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-            non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-            nemo?
-          </p>
-          <aside>
-            <figure>
-              <img src="./photo/ocean.jpg" alt="image of harari" />
+        <div class="sm:flex m-4 border-2 rounded-2xl">
+          <div class="w-1/2 m-5">
+            <h3 class="text-2xl pl-5">harari</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+              non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+              nemo?
+            </p>
+          </div>
+          <aside class="sm:w-1/2">
+            <figure >
+              <img class="rounded-2xl sm:rounded-l-none" src="./photo/ocean.jpg" alt="image of harari" />
             </figure>
           </aside>
         </div>
 
-        <div>
-          <h3>afar</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-            non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-            nemo?
-          </p>
-          <aside>
-            <figure><img src="./photo/ocean.jpg" alt="image of afar" /></figure>
+        <div class="sm:flex m-4 border-2 rounded-2xl">
+          <div class="w-1/2 m-5">
+            <h3 class="text-2xl pl-5">afar</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+              non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+              nemo?
+            </p>
+          </div>
+          <aside class="sm:w-1/2">
+            <figure >
+              <img class="rounded-2xl sm:rounded-l-none" src="./photo/ocean.jpg" alt="image of afar" />
+            </figure>
           </aside>
         </div>
       </section>
